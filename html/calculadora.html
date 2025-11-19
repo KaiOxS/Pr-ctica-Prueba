@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../css/calculadora.css">
+    <script src="../js/calculadora.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h2>Calculadora de Práctica</h2>
+        </header>
+        <nav></nav>
+        <section>
+            <div class="botones">
+                <div id="display">0</div>
+                <button onclick="borrarTodo()">C</button>
+                <button onclick="borrarCaracteres()">&rarr;</button>
+                <button onclick="mostrar('%')">%</button>
+                <button onclick="mostrar('/')">/</button>
+                <button onclick="mostrar(7)">7</button>
+                <button onclick="mostrar(8)">8</button>
+                <button onclick="mostrar(9)">9</button>
+                <button onclick="mostrar('*')">*</button>
+                <button onclick="mostrar(4)">4</button>
+                <button onclick="mostrar(5)">5</button>
+                <button onclick="mostrar(6)">6</button>
+                <button onclick="mostrar('-')">-</button>
+                <button onclick="mostrar(1)">1</button>
+                <button onclick="mostrar(2)">2</button>
+                <button onclick="mostrar(3)">3</button>
+                <button onclick="mostrar('+')">+</button>
+                <button onclick="mostrar(0)">0</button>
+                <button onclick="mostrar('.')">.</button>
+                <button id="igual" onclick="evaluarOperacion()">=</button>
+            </div>
+        </section>
+        <footer>Calculadora por KaiOxS &copy;</footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.formulario {
+    display: block;
+    background-color: rgb(78, 145, 145);
+    padding: 20px;
+    box-shadow: 20px 20px black;
+}
+
+.msg_error {
+    color: white;
+    background-color: red;
+    box-shadow: 5px 5px black;
+    text-align: center;
+    font-weight: bold;
+    display: none;
+}
+
+p {
+    font-style: italic;
+}
+
+p::before {
+    display: block;
+    content: attr(type);
+}
+
+.centrar-boton {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+}
+
+input::placeholder {
+    color: rgb(78, 145, 145);
+    opacity: 35%;
+    text-align: center;
+}
+
+input:focus {
+    border-bottom: 5px solid rgb(70, 42, 42);
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+button:active {
+    background-color: white;
+    color: black;
+}
+
+.asterisco {
+    color: red;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    padding: 50px;
+}

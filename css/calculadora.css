@@ -1,0 +1,59 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Display */
+
+#display {
+    grid-column: span 4;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    text-align: right;
+    font-size: 40px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+#modos {
+    display: flex;
+    justify-content: center;
+}
+
+/* Botones */
+
+.botones {
+    display: grid;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 50px;
+    grid-template-columns: 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px 80px;
+    gap: 20px;
+    background-color: rgb(20, 37, 37);
+}
+
+#igual {
+    grid-column: span 2;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(38, 90, 90);
+    color: white;
+}
+
+button:active {
+    background-color: brown;
+}
+
+/* Footer */
+
+footer {
+    padding: 50px;
+}
